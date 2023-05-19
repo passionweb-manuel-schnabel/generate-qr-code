@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>QR Code Optionen</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.target>
+                        <TCEforms>
+                            <label>LLL:EXT:generate_qr_code/Resources/Private/Language/locallang_db.xlf:qr_code_option.target</label>
+                            <config>
+                                <type>input</type>
+                                <size>250</size>
+                                <default></default>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.target>
+                    <settings.primaryColor>
+                        <TCEforms>
+                            <label>LLL:EXT:generate_qr_code/Resources/Private/Language/locallang_db.xlf:qr_code_option.primary_color</label>
+                            <config>
+                                <type>input</type>
+                                <renderType>colorpicker</renderType>
+                                <default>#000000</default>
+                                <size>10</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.primaryColor>
+                    <settings.secondaryColor>
+                        <TCEforms>
+                            <label>LLL:EXT:generate_qr_code/Resources/Private/Language/locallang_db.xlf:qr_code_option.secondary_color</label>
+                            <config>
+                                <type>input</type>
+                                <renderType>colorpicker</renderType>
+                                <default>#ffffff</default>
+                                <size>10</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.secondaryColor>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>
